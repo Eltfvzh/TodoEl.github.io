@@ -9,7 +9,7 @@ submit.onclick = () => {
     var konfirmasi = confirm("Login Berhasil")
     console.log(konfirmasi)
     if (konfirmasi === true) {
-        window.location.href = "Login.html"
+        window.location.href = "login.html"
     } else {
         alert("You pressed Cancel!");
     }
